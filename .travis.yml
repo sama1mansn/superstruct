@@ -2,7 +2,8 @@ language: node_js
 node_js:
   - stable
 cache:
-  yarn: true
+  yarn:false
+  
 
 env:
   # Do two runs, one for testing and one for linting.
